@@ -8,11 +8,11 @@ class MainTest {
 
     @Test
     public void testAreaRect() {
-        Rectangle rectangle = new Rectangle(5, 5); // Supposons que w = 4 et h = 5
+        Rectangle rectangle = new Rectangle(6, 6); // Supposons que w = 4 et h = 5
 
         double resultat = rectangle.area();
 
-        assertEquals(25.0, resultat, 0.001);
+        assertEquals(36.0, resultat, 0.001);
     }
 
     @Test

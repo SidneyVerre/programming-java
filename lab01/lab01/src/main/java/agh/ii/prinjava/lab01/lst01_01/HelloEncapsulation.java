@@ -17,6 +17,7 @@ public class HelloEncapsulation {
     private int propVal; // the encapsulated state
 
     public HelloEncapsulation(int prop) {
+
         this.propVal = prop;
     }
 
